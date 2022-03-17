@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APP_MitziVargas_Parcial1.Views.Activos">
+    <ContentPage.Content>
+        [22:46] KEVIN FABRICIO SOLANO ULATE
+        <StackLayout >
+            <Entry x:Name="TxtNombre" Placeholder="Nombre" TextColor="Pink"/>
+            <Entry x:Name="TxtSerie" Placeholder="Serie" TextColor="Pink"/>
+            <Entry x:Name="TxtCostoActivo" Placeholder="Costo Del Activo" TextColor="Pink"/>
+            <Entry x:Name="TxtDescripcion" Placeholder="Descripcion" TextColor="Pink"/>
+            <Entry x:Name="TxtUbicacion" Placeholder="Ubicacion" TextColor="Pink"/>
+            <Entry x:Name="TxtResponsable" Placeholder="Responsable" TextColor="Pink"/>
+            <Entry x:Name="TxtFecharegistro" Placeholder="Fecha De Registro" TextColor="Pink"/>
+            <Entry x:Name="TxtEstado" Placeholder="Estado" TextColor="Pink"/>
+            <Button x:Name="BtnGuardar" VerticalOptions="Center" Text="Guardar" Color="Pink" />
+            <Button x:Name="BtnAtras" VerticalOptions="Center" Text="Atras" TextColor="Pink" Clicked="CmdLogin" />
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>
